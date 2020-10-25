@@ -3,16 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DF1FC68B54461EC716701E6 /* Pods_DynamoDB_SwiftUI_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1811DC0D4F6EBC23D5FB1B /* Pods_DynamoDB_SwiftUI_Tutorial.framework */; };
+		70BAEEE0B5DD44CD8A14B25C /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A657610C5431BA10355A1 /* AmplifyModels.swift */; };
+		847E26EEEC3941BEAA2D9C2E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B1EA029726404E99E3715B /* Contact.swift */; };
+		9FA6638E39954EAF84BB5898 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 41BBB2CD52A24506BC8C62FA /* awsconfiguration.json */; };
+		C6D926BC6A0D58BCBA1C0F86 /* Pods_DynamoDB_SwiftUI_Tutorial_DynamoDB_SwiftUI_TutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B44F01BB2E1AD9AC111ACC9C /* Pods_DynamoDB_SwiftUI_Tutorial_DynamoDB_SwiftUI_TutorialUITests.framework */; };
+		D5FA1EAA7D654CB6B5AE2448 /* Contact+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52776D05E344483B87704F3F /* Contact+Schema.swift */; };
+		D72C400223524A95ADE5A283 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D9A7E971A4143BAAE9E4725 /* amplifyconfiguration.json */; };
+		DC958C0925445B5A00907B02 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC958C0825445B5A00907B02 /* Extension.swift */; };
 		DCD7009625442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7009525442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift */; };
 		DCD7009825442F1C0079088A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7009725442F1C0079088A /* ContentView.swift */; };
 		DCD7009A25442F1D0079088A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD7009925442F1D0079088A /* Assets.xcassets */; };
 		DCD7009D25442F1D0079088A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD7009C25442F1D0079088A /* Preview Assets.xcassets */; };
 		DCD700A825442F1D0079088A /* DynamoDB_SwiftUI_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700A725442F1D0079088A /* DynamoDB_SwiftUI_TutorialTests.swift */; };
 		DCD700B325442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700B225442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift */; };
+		DCD700C42544324B0079088A /* ContactOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700C32544324B0079088A /* ContactOld.swift */; };
+		DCD700C6254432B60079088A /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700C5254432B60079088A /* ContactViewModel.swift */; };
+		DCD700C8254438180079088A /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700C7254438180079088A /* AddContactView.swift */; };
+		EE90C1A4300D65EA211E59C7 /* Pods_DynamoDB_SwiftUI_TutorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6764DC902BA6EF51BB56098 /* Pods_DynamoDB_SwiftUI_TutorialTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0631AFA23DDA106CF6EBD596 /* Pods-DynamoDB SwiftUI TutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamoDB SwiftUI TutorialTests.debug.xcconfig"; path = "Target Support Files/Pods-DynamoDB SwiftUI TutorialTests/Pods-DynamoDB SwiftUI TutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41BBB2CD52A24506BC8C62FA /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		455A657610C5431BA10355A1 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		4BCE16CC8100621BE9E4FB5C /* Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests.debug.xcconfig"; path = "Target Support Files/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D1811DC0D4F6EBC23D5FB1B /* Pods_DynamoDB_SwiftUI_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamoDB_SwiftUI_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52776D05E344483B87704F3F /* Contact+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "Contact+Schema.swift"; path = "amplify/generated/models/Contact+Schema.swift"; sourceTree = "<group>"; };
+		576C2EB3FF2B421DB27B0EA8 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		5DEDF5FDBE29C5E8E54E44F2 /* Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests.release.xcconfig"; path = "Target Support Files/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D9A7E971A4143BAAE9E4725 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		7128C9179323F73180F0E68B /* Pods-DynamoDB SwiftUI Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamoDB SwiftUI Tutorial.release.xcconfig"; path = "Target Support Files/Pods-DynamoDB SwiftUI Tutorial/Pods-DynamoDB SwiftUI Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		9D04DE414FEA6B232A886459 /* Pods-DynamoDB SwiftUI TutorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamoDB SwiftUI TutorialTests.release.xcconfig"; path = "Target Support Files/Pods-DynamoDB SwiftUI TutorialTests/Pods-DynamoDB SwiftUI TutorialTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8B1EA029726404E99E3715B /* Contact.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = amplify/generated/models/Contact.swift; sourceTree = "<group>"; };
+		AD4B1AC9A27A77E4D2461B78 /* Pods-DynamoDB SwiftUI Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamoDB SwiftUI Tutorial.debug.xcconfig"; path = "Target Support Files/Pods-DynamoDB SwiftUI Tutorial/Pods-DynamoDB SwiftUI Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		B44F01BB2E1AD9AC111ACC9C /* Pods_DynamoDB_SwiftUI_Tutorial_DynamoDB_SwiftUI_TutorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamoDB_SwiftUI_Tutorial_DynamoDB_SwiftUI_TutorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC958C0825445B5A00907B02 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		DCD7009225442F1C0079088A /* DynamoDB SwiftUI Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DynamoDB SwiftUI Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD7009525442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamoDB_SwiftUI_TutorialApp.swift; sourceTree = "<group>"; };
 		DCD7009725442F1C0079088A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +72,11 @@
 		DCD700AE25442F1E0079088A /* DynamoDB SwiftUI TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DynamoDB SwiftUI TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD700B225442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamoDB_SwiftUI_TutorialUITests.swift; sourceTree = "<group>"; };
 		DCD700B425442F1E0079088A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD700C32544324B0079088A /* ContactOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactOld.swift; sourceTree = "<group>"; };
+		DCD700C5254432B60079088A /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		DCD700C7254438180079088A /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		E447DE3864354E24A38742C7 /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyDatasource/schema.graphql; sourceTree = "<group>"; };
+		E6764DC902BA6EF51BB56098 /* Pods_DynamoDB_SwiftUI_TutorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamoDB_SwiftUI_TutorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF1FC68B54461EC716701E6 /* Pods_DynamoDB_SwiftUI_Tutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE90C1A4300D65EA211E59C7 /* Pods_DynamoDB_SwiftUI_TutorialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +100,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D926BC6A0D58BCBA1C0F86 /* Pods_DynamoDB_SwiftUI_Tutorial_DynamoDB_SwiftUI_TutorialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29A8CB21BF954F1FB1DD81FD /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				576C2EB3FF2B421DB27B0EA8 /* amplifytools.xcconfig */,
+				6D9A7E971A4143BAAE9E4725 /* amplifyconfiguration.json */,
+				41BBB2CD52A24506BC8C62FA /* awsconfiguration.json */,
+				E447DE3864354E24A38742C7 /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		3E0AA3C0135B8B0C3284F4E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B1AC9A27A77E4D2461B78 /* Pods-DynamoDB SwiftUI Tutorial.debug.xcconfig */,
+				7128C9179323F73180F0E68B /* Pods-DynamoDB SwiftUI Tutorial.release.xcconfig */,
+				4BCE16CC8100621BE9E4FB5C /* Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests.debug.xcconfig */,
+				5DEDF5FDBE29C5E8E54E44F2 /* Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests.release.xcconfig */,
+				0631AFA23DDA106CF6EBD596 /* Pods-DynamoDB SwiftUI TutorialTests.debug.xcconfig */,
+				9D04DE414FEA6B232A886459 /* Pods-DynamoDB SwiftUI TutorialTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1E5644B4EB54766A1A2DE97 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				455A657610C5431BA10355A1 /* AmplifyModels.swift */,
+				A8B1EA029726404E99E3715B /* Contact.swift */,
+				52776D05E344483B87704F3F /* Contact+Schema.swift */,
+			);
+			name = AmplifyModels;
+			path = .;
+			sourceTree = "<group>";
+		};
+		B694304591BFB602A3DF3BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D1811DC0D4F6EBC23D5FB1B /* Pods_DynamoDB_SwiftUI_Tutorial.framework */,
+				B44F01BB2E1AD9AC111ACC9C /* Pods_DynamoDB_SwiftUI_Tutorial_DynamoDB_SwiftUI_TutorialUITests.framework */,
+				E6764DC902BA6EF51BB56098 /* Pods_DynamoDB_SwiftUI_TutorialTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC958C0725445B4B00907B02 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DC958C0825445B5A00907B02 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		DCD7008925442F1C0079088A = {
 			isa = PBXGroup;
 			children = (
+				A1E5644B4EB54766A1A2DE97 /* AmplifyModels */,
+				29A8CB21BF954F1FB1DD81FD /* AmplifyConfig */,
 				DCD7009425442F1C0079088A /* DynamoDB SwiftUI Tutorial */,
 				DCD700A625442F1D0079088A /* DynamoDB SwiftUI TutorialTests */,
 				DCD700B125442F1E0079088A /* DynamoDB SwiftUI TutorialUITests */,
 				DCD7009325442F1C0079088A /* Products */,
+				3E0AA3C0135B8B0C3284F4E4 /* Pods */,
+				B694304591BFB602A3DF3BC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +189,10 @@
 			isa = PBXGroup;
 			children = (
 				DCD7009525442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift */,
-				DCD7009725442F1C0079088A /* ContentView.swift */,
+				DC958C0725445B4B00907B02 /* Extension */,
+				DCD700C22544322A0079088A /* ViewModel */,
+				DCD700C1254432200079088A /* View */,
+				DCD700C0254432170079088A /* Model */,
 				DCD7009925442F1D0079088A /* Assets.xcassets */,
 				DCD7009E25442F1D0079088A /* Info.plist */,
 				DCD7009B25442F1D0079088A /* Preview Content */,
@@ -130,6 +226,31 @@
 			path = "DynamoDB SwiftUI TutorialUITests";
 			sourceTree = "<group>";
 		};
+		DCD700C0254432170079088A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCD700C32544324B0079088A /* ContactOld.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCD700C1254432200079088A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7009725442F1C0079088A /* ContentView.swift */,
+				DCD700C7254438180079088A /* AddContactView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCD700C22544322A0079088A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DCD700C5254432B60079088A /* ContactViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCD700B725442F1E0079088A /* Build configuration list for PBXNativeTarget "DynamoDB SwiftUI Tutorial" */;
 			buildPhases = (
+				A73D924CABA91284D3C168E1 /* [CP] Check Pods Manifest.lock */,
 				DCD7008E25442F1C0079088A /* Sources */,
 				DCD7008F25442F1C0079088A /* Frameworks */,
 				DCD7009025442F1C0079088A /* Resources */,
+				79B62957D9E26DFE7DDBA2F3 /* [CP] Embed Pods Frameworks */,
+				DC958BFA25445A2700907B02 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -154,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCD700BA25442F1E0079088A /* Build configuration list for PBXNativeTarget "DynamoDB SwiftUI TutorialTests" */;
 			buildPhases = (
+				2B435C2B803630836E163D11 /* [CP] Check Pods Manifest.lock */,
 				DCD7009F25442F1D0079088A /* Sources */,
 				DCD700A025442F1D0079088A /* Frameworks */,
 				DCD700A125442F1D0079088A /* Resources */,
@@ -172,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCD700BD25442F1E0079088A /* Build configuration list for PBXNativeTarget "DynamoDB SwiftUI TutorialUITests" */;
 			buildPhases = (
+				6DC54A51A46A55AF18A98F7D /* [CP] Check Pods Manifest.lock */,
 				DCD700AA25442F1E0079088A /* Sources */,
 				DCD700AB25442F1E0079088A /* Frameworks */,
 				DCD700AC25442F1E0079088A /* Resources */,
+				AA6BB19EC21A43BD09C86E49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +362,8 @@
 			files = (
 				DCD7009D25442F1D0079088A /* Preview Assets.xcassets in Resources */,
 				DCD7009A25442F1D0079088A /* Assets.xcassets in Resources */,
+				D72C400223524A95ADE5A283 /* amplifyconfiguration.json in Resources */,
+				9FA6638E39954EAF84BB5898 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +383,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B435C2B803630836E163D11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamoDB SwiftUI TutorialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DC54A51A46A55AF18A98F7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B62957D9E26DFE7DDBA2F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamoDB SwiftUI Tutorial/Pods-DynamoDB SwiftUI Tutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamoDB SwiftUI Tutorial/Pods-DynamoDB SwiftUI Tutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamoDB SwiftUI Tutorial/Pods-DynamoDB SwiftUI Tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A73D924CABA91284D3C168E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamoDB SwiftUI Tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6BB19EC21A43BD09C86E49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests/Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC958BFA25445A2700907B02 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/AmplifyTools/amplify-tools.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCD7008E25442F1C0079088A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC958C0925445B5A00907B02 /* Extension.swift in Sources */,
+				DCD700C6254432B60079088A /* ContactViewModel.swift in Sources */,
+				DCD700C8254438180079088A /* AddContactView.swift in Sources */,
+				DCD700C42544324B0079088A /* ContactOld.swift in Sources */,
 				DCD7009825442F1C0079088A /* ContentView.swift in Sources */,
 				DCD7009625442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift in Sources */,
+				70BAEEE0B5DD44CD8A14B25C /* AmplifyModels.swift in Sources */,
+				847E26EEEC3941BEAA2D9C2E /* Contact.swift in Sources */,
+				D5FA1EAA7D654CB6B5AE2448 /* Contact+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +670,7 @@
 		};
 		DCD700B825442F1E0079088A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4B1AC9A27A77E4D2461B78 /* Pods-DynamoDB SwiftUI Tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +693,7 @@
 		};
 		DCD700B925442F1E0079088A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7128C9179323F73180F0E68B /* Pods-DynamoDB SwiftUI Tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +716,7 @@
 		};
 		DCD700BB25442F1E0079088A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0631AFA23DDA106CF6EBD596 /* Pods-DynamoDB SwiftUI TutorialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +739,7 @@
 		};
 		DCD700BC25442F1E0079088A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D04DE414FEA6B232A886459 /* Pods-DynamoDB SwiftUI TutorialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +762,7 @@
 		};
 		DCD700BE25442F1E0079088A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCE16CC8100621BE9E4FB5C /* Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +783,7 @@
 		};
 		DCD700BF25442F1E0079088A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEDF5FDBE29C5E8E54E44F2 /* Pods-DynamoDB SwiftUI Tutorial-DynamoDB SwiftUI TutorialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
